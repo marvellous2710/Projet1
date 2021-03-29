@@ -1,0 +1,309 @@
+body, html{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+    position: relative;
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+}
+
+nav li{
+    margin-right: 15px;
+}    
+
+
+aside{
+    background-color: #c4c4c4;
+}
+
+.sidebar{
+    position: relative;
+    float: right;
+    background: #DCDCDC;
+    width: 40%;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+.emile:nth-child(1){
+    background-color: white;
+    position: relative;
+    float: left;
+    width: 300px;
+    padding: 10px;
+    flex-wrap: wrap;
+    border: 3px white;
+    border-radius: 20px;
+}
+.emile img{
+    width: 100%;
+    height: auto;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.creative:nth-child(2){
+    background-color: white;
+    position: relative;
+    float: left;
+    width: 300px;
+    padding: 10px;
+    flex-wrap: wrap;
+    border: 3px white;
+    border-radius: 20px;
+}
+
+.creative img{
+    width: 100%;
+    height: auto;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.febria2:nth-child(3){
+    background-color: white;
+    position: relative;
+    float: left;
+    width: 300px;
+    padding: 10px;
+    flex-wrap: wrap;
+    border: 3px white;
+    border-radius: 20px;
+}
+.febria2 img{
+    width: 100%;
+    height: auto;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.hébergements{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    float: left;
+    flex-wrap: wrap;
+    background: #DCDCDC;
+    width: 500px;
+    height: auto;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+
+.marcus:nth-child(1){
+    background-color: white;
+    position: relative;
+    width: 150px;
+    height: 100px;
+    padding: 10px;
+    display: flex;
+    border: 3px white;
+    border-radius: 20px;
+}
+
+.marcus img{
+    width: 235px;
+    height: auto;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.fred:nth-child(2){
+    background-color: white;
+    position: relative;
+    width: 150px;
+    height: 100px;
+    padding: 10px;
+    display: flex;
+    border: 3px white;
+    border-radius: 20px;
+
+}
+
+.fred img{
+    width: 235px;
+    height: auto;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.reise:nth-child(3){
+    background-color: white;
+    position: relative;
+    float: left;
+    width: 150px;
+    height: 100px;
+    padding: 10px;
+    flex-wrap: wrap;
+    border: 3px white;
+    border-radius: 20px;
+}
+
+.reise img{
+    width: 235px;
+    height: auto;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.annie:nth-child(4){
+    background-color: white;
+    position: relative;
+    float: left;
+    width: 150px;
+    height: 100px;
+    padding: 10px;
+    flex-wrap: wrap;
+    border: 3px white;
+    border-radius: 20px;
+}
+
+.annie img{
+    width: 235px;
+    height: auto;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.nicate:nth-child(5){
+    background-color: white;
+    position: relative;
+    float: left;
+    width: 150px;
+    height: 100px;
+    padding: 10px;
+    flex-wrap: wrap;
+    border: 3px white;
+    border-radius: 20px;
+}
+
+.nicate img{
+    width: 235px;
+    height: auto;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.febrian:nth-child(6){
+    background-color: white;
+    position: relative;
+    float: left;
+    width: 150px;
+    height: 100px;
+    padding: 10px;
+    flex-wrap: wrap;
+    border: 3px white;
+    border-radius: 20px;
+}
+
+.febrian img{
+    width: 235px;
+    height: auto;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.activités{
+    position: relative;
+    float: right;
+    width: 100%;
+    padding: 20px;
+    background: grey;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 50px 0 100px;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.vieuxport:nth-child(1){
+    width: 250px;
+    height: 100px;
+}
+
+.vieuxport img{
+    width: 235px;
+    height: auto;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.fort:nth-child(2){
+    width: 150px;
+    height: 100px;
+}
+
+.fort img{
+    width: 235px;
+    height: auto;
+    border-radius: 20px 20px 20px 20px;
+}
+
+
+.ilesdufrioul:nth-child(3){
+    width: 150px;
+    height: 100px;
+}
+
+.ilesdufrioul img{
+    width: 235px;
+    height: auto;
+    border-radius: 20px 20px 20px 20px;
+}
+
+
+.parcnational:nth-child(4){
+    width: 150px;
+    height: 100px;
+}
+
+.parcnational img{
+    width: 235px;
+    height: auto;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.notredame:nth-child(5){
+    width: 150px;
+    height: 100px;
+}
+
+.notredame img{
+    width: 235px;
+    height: auto;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.parclongchamp:nth-child(6){
+    width: 150px;
+    height: 100px;
+}
+
+.parclongchamp img{
+    width: 235px;
+    height: auto;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.contenu-footer{
+    background: #DCDCDC;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 20px;
+    padding: 50px 0 100px;
+    flex-direction: row;
+}
+
+.bloc{
+    width: 25%;
+    margin: 0 30px;
+}
+
+.liste-services{
+    list-style-type: none;
+    
+}
